@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+
+    <model name="slope">
+      <pose>0 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://slope.stl</uri></mesh>
+          </geometry>
+        </visual>
+				<collision name="collision">
+					<geometry>
+						<mesh><uri>file://slope.stl</uri></mesh>
+					</geometry>
+				</collision>
+			</link>
+		</model>
+
+</sdf>
